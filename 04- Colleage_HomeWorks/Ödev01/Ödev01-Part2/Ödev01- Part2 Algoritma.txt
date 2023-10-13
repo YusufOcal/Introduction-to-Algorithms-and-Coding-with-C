@@ -1,0 +1,7 @@
+1-Başla
+2-Sayı giriniz.
+3-n=Girilen sayının basamak sayısı.
+4-b=Girilen sayının her bir basamağındaki sayının 'n' üssünü alıp, topla
+5-Çıkan sonuç sayının kendisine eşit ise "Bu bir Armstrong sayıdır" yaz, 7. adıma git.
+6-"Bu bir Armstrong sayı değildir" yaz.
+7-Son

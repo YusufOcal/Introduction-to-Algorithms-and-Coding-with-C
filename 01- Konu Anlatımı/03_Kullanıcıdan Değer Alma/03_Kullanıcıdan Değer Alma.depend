@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1636124322 source:d:\c ve c++\03_kullanýcýdan deðer alma\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1636129967 source:d:\for c ve c++\03_kullanicidan deger alma\main.c
+	<stdio.h>
+	<stdlib.h>
+

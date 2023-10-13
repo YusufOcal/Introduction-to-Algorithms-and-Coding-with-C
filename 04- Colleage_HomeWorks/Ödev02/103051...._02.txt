@@ -1,0 +1,51 @@
+1- Başla
+2- "Lütfen bir kelime yazınız."
+3- Eğer kelimede "a" harfi yok ise 5. adıma git.
+4- Kaç tane "a" harfi olduğunu tespit et, 6. adıma git.
+5- Eğer kelimede "e" harfi yok ise 7. adıma git.
+6- Kaç tane "e" harfi olduğunu tespit et, 8.adıma git.
+7- Eğer kelimede "i" harfi yok ise 9. adıma git.
+8- Kaç tane "i" harfi olduğunu tespit et, 10.adıma git.
+9- Eğer kelimede "o" harfi yok ise 11. adıma git.
+10- Kaç tane "o" harfi olduğunu tespit et, 12.adıma git.
+11- Eğer kelimede "u" harfi yok ise 13. adıma git.
+12- Kaç tane "u" harfi olduğunu tespit et.
+13- Ekrana yazdır.
+14- Son
+
+
+
+
+Değişkenler(a, n)
+1- Başla
+2- (n= 2, 3, 5, 7, 13, 17, 19, 31, 61, 89, 107, 127, 521, 607, 1279, 2203, 2281, 3217, 4253, 4423, 9689, 9941, 11213, 19.937, 21.701) değerleri için,
+3- a=(2^n)-1 
+4- a=asal sayı değil ise 6. adıma git.
+5- "a" yazdır, 7. adıma git.
+6- "Bu bir Eisenstein Mersenne asal sayısı değildir" yazdır.
+7- Son
+
+
+
+
+Değişkenler(a, b, c, x, K, L, M, dikdörtgenin uzun kenarı, dikdörtgenin kısa kenarını, D.Alan, B.Alan, A.Alan, Y.Alan)
+1- Başla
+2- "Lütfen dikdörtgenin uzun kenarı giriniz."
+3- Dikdörtgenin uzun kenarı=K
+4- "Lütfen dikdörtgenin kısa kenarını giriniz."
+5- Dikdörtgenin kısa kenarı=L
+6- D.Alan=K*L
+7- "Lütfen bir kenar ölçüsü giriniz."
+8- Kenar ölçüsü=M
+9- B.Alan=M*tan(36)*5
+10- A.Alan=(3*(3^1/2))*(M^2)/2
+11- Y.Alan=(7*M^2)/(4*tan(180/7))
+12- D.Alan/B.Alan=a
+13- "a"'yı yazdır, 15.adıma git.
+14- D.Alan/A.Alan=b
+15- "b"'yi yazdır, 17.adıma git.
+16- D.Alan/Y.Alan=c
+17- "c"'yi yazdır, 19.adıma git.
+18- x=D.Alan/(B.Alan+A.Alan+Y.Alan)
+19- "x"'i yazdır.
+20- Son

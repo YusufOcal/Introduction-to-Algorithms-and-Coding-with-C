@@ -1,0 +1,18 @@
+Değişkenler(Vize, Final, Bütünleme, Ort1, Ort2, a, b, c)
+
+1-Başla
+2-Vize notunuzu giriniz.
+3-a=Vize*0.4 
+4-Final notunuzu giriniz.
+5-Eğer Final<50 ise 9. adıma git.
+6-b=Final*0.6
+7-Ort1=a+b
+8-Ort1>=50 ise 14. adıma git.
+9-Bütünleme notunuzu giriniz.
+10-Eğer Bütünleme<50 ise 15. adıma git.     
+11-c=Bütünleme*0.6     
+12-Ort2=a+c  
+13-Eğer Ort2<50 ise 15. adıma git.
+14-"Dersi Geçtiniz" yaz, 16. adıma git.
+15"Dersten Kaldınız" yaz.
+16-Son

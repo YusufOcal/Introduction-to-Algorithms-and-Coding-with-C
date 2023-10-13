@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1637578656 source:d:\for c ve c++\26_karakter dizilerindeki diger fonksiyonlar\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

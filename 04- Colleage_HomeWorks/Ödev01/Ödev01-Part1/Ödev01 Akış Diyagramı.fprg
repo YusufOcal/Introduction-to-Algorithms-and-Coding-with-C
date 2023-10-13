@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ali"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-17 05:10:05 &#214;S"/>
+        <attribute name="created" value="QWxpO1lVU1VGVU5LRTsyMDIxLTEwLTE3OzAzOjEzOjU4IMOWUzsyNDE1"/>
+        <attribute name="edited" value="QWxpO1lVU1VGVU5LRTsyMDIxLTEwLTE3OzA1OjEwOjA1IMOWUzsyMDsyNTYz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Vize, Final, B&#252;t&#252;nleme, Ort1, Ort2, a, b, c" type="Integer" array="False" size=""/>
+            <output expression="&quot;Vize notunuzu giriniz.&quot;" newline="True"/>
+            <input variable="Vize"/>
+            <assign variable="a" expression="Vize*0.4"/>
+            <output expression="&quot;Final notunuzu giriniz.&quot;" newline="True"/>
+            <input variable="Final"/>
+            <if expression="Final&lt;50">
+                <then>
+                    <output expression="&quot;B&#252;t&#252;nleme notunuzu giriniz.&quot;" newline="True"/>
+                    <input variable="B&#252;t&#252;nleme"/>
+                    <if expression="B&#252;t&#252;nleme&lt;50">
+                        <then>
+                            <output expression="&quot;Dersten Kald&#305;n&#305;z.&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <assign variable="c" expression="B&#252;t&#252;nleme*0.6"/>
+                            <assign variable="Ort2" expression="a+c"/>
+                            <if expression="Ort2&lt;50">
+                                <then>
+                                    <output expression="&quot;Dersten Kald&#305;n&#305;z.&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;Dersi Ge&#231;tiniz.&quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <assign variable="b" expression="Final*0.6"/>
+                    <assign variable="Ort1" expression="a+b"/>
+                    <if expression="Ort1&gt;=50">
+                        <then>
+                            <output expression="&quot;Dersi Ge&#231;tiniz.&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;B&#252;t&#252;nleme notunuzu giriniz.&quot;" newline="True"/>
+                            <input variable="B&#252;t&#252;nleme"/>
+                            <if expression="B&#252;t&#252;nleme&lt;50">
+                                <then>
+                                    <output expression="&quot;Dersten Kald&#305;n&#305;z.&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <assign variable="c" expression="B&#252;t&#252;nleme*0.6"/>
+                                    <assign variable="Ort2" expression="a+c"/>
+                                    <if expression="Ort2&lt;50">
+                                        <then>
+                                            <output expression="&quot;Dersten Kald&#305;n&#305;z.&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <output expression="&quot;Dersi Ge&#231;tiniz.&quot;" newline="True"/>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

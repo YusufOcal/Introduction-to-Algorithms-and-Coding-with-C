@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1641662577 source:d:\for c ve c++\3 - exercises 2\deneme5\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<conio.h>
+

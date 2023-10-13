@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ali"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-18 06:49:06 &#214;S"/>
+        <attribute name="created" value="QWxpO1lVU1VGVU5LRTsyMDIxLTEwLTE4OzA2OjIyOjMxIMOWUzsyNDEw"/>
+        <attribute name="edited" value="QWxpO1lVU1VGVU5LRTsyMDIxLTEwLTE4OzA2OjQ5OjA2IMOWUzsyOzI1MzA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Ip adresinizi giriniz.&quot;" newline="True"/>
+            <assign variable="a" expression="&quot;Ip adresinin ilk 3 basama&#287;&#305;&quot;"/>
+            <if expression="0&lt;a&lt;=127">
+                <then>
+                    <output expression="&quot;Ip adresiniz A s&#305;n&#305;f&#305;na aittir.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="128&lt;=a&lt;=191">
+                        <then>
+                            <output expression="&quot;Ip adresiniz B s&#305;n&#305;f&#305;na aittir.&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="192&lt;=a&lt;=223">
+                                <then>
+                                    <output expression="&quot;Ip adresiniz C s&#305;n&#305;f&#305;na aittir.&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="224&lt;=a&lt;=239">
+                                        <then>
+                                            <output expression="&quot;Ip adresiniz D s&#305;n&#305;f&#305;na aittir.&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="240&lt;=a&lt;=255">
+                                                <then>
+                                                    <output expression="&quot;Ip adresiniz E s&#305;n&#305;f&#305;na aittir.&quot;" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <output expression="&quot;B&#246;&#246;yle bir Ip adresi yoktur, L&#252;tfen yeniden giriniz.&quot;" newline="True"/>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

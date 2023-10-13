@@ -1,0 +1,16 @@
+Değişkenler(a)
+1-Başla
+2-“Ip adresinizi giriniz.”
+3- Ip adresinin ilk byte’ı=a
+4- 0<=a<=127 ise 10. Adıma git.
+5- 128<=a<=191 ise 11. adıma git.
+6- 192<=a<=223 ise 12. adıma git.
+7- 224<=a<=239 ise 13. adıma git.
+8- 240<=a<=255 ise 14. adıma git.
+9- “Böyle bir Ip adresi yoktur, Lütfen yeniden giriniz.” yaz,  15. adıma git.
+10- “Ip adresiniz A sınıfına aittir.” yaz, 15. adıma git.
+11- “Ip adresiniz B sınıfına aittir.” yaz, 15. adıma git.
+12- “Ip adresiniz C sınıfına aittir.” yaz, 15. adıma git.
+13- “Ip adresiniz D sınıfına aittir.” yaz, 15. adıma git.
+14- “Ip adresiniz E sınıfına aittir.”
+15- Son

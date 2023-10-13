@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ali"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-17 06:09:49 &#214;S"/>
+        <attribute name="created" value="QWxpO1lVU1VGVU5LRTsyMDIxLTEwLTE3OzA1OjQ2OjI1IMOWUzsyNDE3"/>
+        <attribute name="edited" value="QWxpO1lVU1VGVU5LRTsyMDIxLTEwLTE3OzA2OjA5OjQ5IMOWUzszOzI1MzM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, b, Say&#305;" type="Real" array="False" size=""/>
+            <output expression="&quot;Bir say&#305; giriniz&quot;" newline="True"/>
+            <input variable="Say&#305;"/>
+            <assign variable="n" expression="&quot;Girilen say&#305;n&#305;n basamak say&#305;s&#305;&quot;"/>
+            <assign variable="b" expression="&quot;Girilen say&#305;n&#305;n 1. basama&#287;&#305;ndaki say&#305;^n + Girilen say&#305;n&#305;n 2. basama&#287;&#305;ndaki say&#305;^n +........ Girilen say&#305;n&#305;n n. basama&#287;&#305;ndaki say&#305;^n&quot;"/>
+            <if expression="b=Say&#305;">
+                <then>
+                    <output expression="&quot;Bu bir Armstrong say&#305;d&#305;r.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Bu bir Armstrong say&#305; de&#287;ildir.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
